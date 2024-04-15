@@ -360,7 +360,22 @@ div#titlepage {
             position:absolute;
             bottom:48px
         }
+        
+        @media (max-width: 685px) {
+            body {
+                background: white;
+                width: 100%;
+            }
 
+            #workspace #script .page {
+                box-shadow: none;
+            }
+
+          #titlepage {
+            width: 200px !important;
+            margin: 0 auto !important;
+          }
+        }
     </style>
 </head>
 <body id='fountain-js'>
