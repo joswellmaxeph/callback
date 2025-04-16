@@ -361,21 +361,41 @@ div#titlepage {
             bottom:48px
         }
 
+        #cb-img {
+          margin-top: 500px;
+        }
+
         @media (max-width: 685px) {
-             body {
-                 background: white;
-                 width: 100%;
-             }
- 
-             #workspace #script .page {
-                 box-shadow: none;
-             }
- 
-           #titlepage {
-             width: 200px !important;
-             margin: 0 auto !important;
-           }
-         }
+            body {
+                background: white;
+                width: 100%;
+            }
+
+            #workspace #script .page {
+                box-shadow: none;
+            }
+
+          #titlepage {
+            width: 200px !important;
+            margin: 0 auto !important;
+          }
+
+          #cb-img {
+            margin-top: 300px;
+          }
+
+          #workspace #script.a4.dpi100 .page {
+            height: min-content;
+          }
+        }
+
+        .mini-dir {
+            text-align: center;
+        }
+
+        .mini-dir p {
+            margin: 0;
+        }
 
     </style>
 </head>
