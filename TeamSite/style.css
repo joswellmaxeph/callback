@@ -1,0 +1,21 @@
+body {
+  font-family: "Inter";
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Courier New';
+  margin-bottom: .2em;
+}
+
+h2, h3, h4, h5, h6 {
+  
+  margin-top: .8em;
+}
+
+ul, p {
+  margin-top: 0px;
+}
+
+iframe {
+  max-width: 100%;
+}
