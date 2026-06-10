@@ -2,5 +2,13 @@
   <body>
     <h1>Callback: An Original Comedy Musical</h1>
     <p><a href="./script.pdf" download="CALLBACK423.pdf">Script</a></p>
+    <script>
+      document.addEventListener("DOMContentLoaded", async () => {
+        const response = await fetch("notes.fountain");
+        const text = await response.text();
+        const textLines = text.split("\n");
+        console.log(textLines);
+      });
+    </script>
   </body>
 </html>
